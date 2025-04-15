@@ -1,0 +1,15 @@
+.top-menu {
+  padding: 2px 15px;
+}
+
+.logo {
+  color:black;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.contacts {
+  border-radius: 8px;
+  margin: 30px;
+}
