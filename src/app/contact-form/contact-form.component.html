@@ -15,7 +15,7 @@
       <input type="text" name="emailAddress" class="form-control inputBox" [(ngModel)]="newContact.email" #contactEmail>
     </p>
     <div class="text-end">
-      <button class="addButton btn btn-primary" (click)="onCreateContact()">Add</button>
+      <button class="addButton btn btn-primary" (click)="onCreateContact()" routerLink="">Add</button>
       <button class="addButton btn btn-danger" routerLink="">Cancel</button>
     </div>
 </div>
